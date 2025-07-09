@@ -7,6 +7,7 @@ echo
 git clone https://github.com/systemmk/frontend.git
 cd frontend
 git checkout develop
+npm i
 cd ..
 
 echo
@@ -15,6 +16,7 @@ echo
 git clone https://github.com/systemmk/migrations.git
 cd migrations
 git checkout develop
+npm i
 cd ..
 
 echo
