@@ -43,4 +43,4 @@ npm i
 
 echo
 echo -e "${CYAN}Aplicação instalada com sucesso! ✔"
-echo -e "${RED}ATENCAO ⚠ ${CYAN}Para executar a aplicação 'frontend', é necessário criar o .env.local com base no .env.example ${WHITE}"
+echo -e "${RED}ATENCAO ⚠  ${CYAN}Para executar a aplicação 'frontend', é necessário criar o .env.local com base no .env.example ${WHITE}"
