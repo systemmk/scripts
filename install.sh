@@ -14,7 +14,6 @@ git checkout develop
 echo
 echo -e "${CYAN}Instalando dependencias ${WHITE}"
 npm i
-echo -3 e "${RED} ⚠ ATENCAO ⚠ ${CYAN}Para executar a aplicação, é necessário criar o .env.local com base no .env.example ${WHITE}"
 cd ..
 
 echo
@@ -45,6 +44,6 @@ cd seed-user
 echo
 echo -e "${CYAN}Instalando dependencias ${WHITE}"
 npm i
-echo
-echo -e "${CYAN}Executando seed de usuários ${WHITE}"
-npm start
+
+echo "${CYAN}Aplicação instalada! "
+echo -3 e "${RED} == ATENCAO == ${CYAN}Para executar a aplicação 'frontend', é necessário criar o .env.local com base no .env.example ${WHITE}"
