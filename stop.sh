@@ -6,7 +6,7 @@ TAB="              "
 cd ..
 
 echo -e "${RED} == STEP 1 == ${CYAN}Finalizando execução de containers do Supabase 🐟 ${WHITE}"
-cd mksystem-migrations
+cd migrations
 npx supabase stop
 
 echo
