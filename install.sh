@@ -8,9 +8,11 @@ echo
 git clone https://github.com/systemmk/frontend.git
 cd frontend
 
-echo -e "${CYAN}${TAB}Realizando checkout para develop ${WHITE}"
+echo
+echo -e "${CYAN}Realizando checkout para develop ${WHITE}"
 git checkout develop
-echo -e "${CYAN}${TAB}Instalando dependencias ${WHITE}"
+echo
+echo -e "${CYAN}Instalando dependencias ${WHITE}"
 npm i
 cd ..
 
@@ -20,9 +22,11 @@ echo
 git clone https://github.com/systemmk/migrations.git
 cd migrations
 
-echo -e "${CYAN}${TAB}Realizando checkout para develop ${WHITE}"
+echo
+echo -e "${CYAN}Realizando checkout para develop ${WHITE}"
 git checkout develop
-echo -e "${CYAN}${TAB}Instalando dependencias ${WHITE}"
+echo
+echo -e "${CYAN}Instalando dependencias ${WHITE}"
 npm i
 cd ..
 
@@ -37,7 +41,9 @@ echo
 git clone https://github.com/systemmk/seed-user.git
 cd seed-user
 
-echo -e "${CYAN}${TAB}Instalando dependencias ${WHITE}"
+echo
+echo -e "${CYAN}Instalando dependencias ${WHITE}"
 npm i
-echo -e "${CYAN}${TAB}Executando seed de usuários ${WHITE}"
+echo
+echo -e "${CYAN}Executando seed de usuários ${WHITE}"
 npm start
