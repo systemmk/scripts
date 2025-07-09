@@ -6,5 +6,5 @@ TAB="              "
 
 echo
 cd ../seed-user
-echo -e "${RED} == STEP 1 == ${CYAN}Executando seed de usuários ${WHITE}"
+echo -e "${RED} == STEP 1 == ${CYAN}Executando seed de usuários ${WHITE} 🧑"
 npm start
