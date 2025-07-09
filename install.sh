@@ -14,6 +14,7 @@ git checkout develop
 echo
 echo -e "${CYAN}Instalando dependencias ${WHITE}"
 npm i
+echo -3 e "${RED} ⚠ ATENCAO ⚠ ${CYAN}Para executar a aplicação, é necessário criar o .env.local com base no .env.example ${WHITE}"
 cd ..
 
 echo

@@ -1,5 +1,8 @@
 RED="\e[31m"
 CYAN="\e[36m"
+WHITE="\e[97m"
+TAB="              "
+
 cd ..
 
 echo -e "${RED} == STEP 1 == ${CYAN}Finalizando execução de containers do Supabase"

@@ -1,5 +1,6 @@
 RED="\e[31m"
 CYAN="\e[36m"
+WHITE="\e[97m"
 TAB="              "
 
 cd ..
