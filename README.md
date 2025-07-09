@@ -22,6 +22,7 @@ curl -s https://raw.githubusercontent.com/systemmk/scripts/main/install.sh | bas
 Após a instalação, você pode usar os seguintes scripts para gerenciar seu ambiente:
 
 - `run.sh`: Inicia os serviços de backend e frontend em modo de desenvolvimento.
+- `run-supabase.sh`: Inicia apenas os serviços do banco de dados supabase.
 - `stop.sh`: Para todos os serviços que estão em execução.
 - `seed-users.sh`: Popula o banco de dados com usuários de teste.
 - `install.sh`: O script de instalação inicial (normalmente executado apenas uma vez).
@@ -33,6 +34,7 @@ Para executar qualquer um dos scripts, utilize o seguinte formato no seu termina
 ```
 
 **Exemplo:**
+
 ```bash
 # Para iniciar as aplicações
 ./run.sh
